@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(205, 218, 253);
+}
+
+/* Header */
+header {
+    background-color: rgba(96, 101, 143, 0.8);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow:  4px 6px rgba(0,0,0,0.1);
+    border-top-left-radius: 1cap;
+    border-top-right-radius: 1cap;
+}
+
+/* Nav Bar - Home, Resume, Portfolio, Bio, Contact Me */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    list-style: none;
+    margin: 0; 
+    background: rgb(45, 50, 66);
+    border-bottom-left-radius: 1cap;
+    border-bottom-right-radius: 1cap;
+    }
+
+    .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    }
+
+    .navigation a:hover {
+    background: rgb(24, 27, 36);
+    border-radius: 15%;
+    }
+
+    /* Profile Photo/Techn All Imgs Unless specified */
+    img {
+        width: 100px;
+        height: auto;
+        border-radius: 20%;
+        box-shadow: 9px 9px rgba(0,0,0,0.1);
+    }
+    /* ---------------------------------------------------------------------------- */
+    #main-content-header {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: none;
+        color: rgb(112, 96, 255);
+        padding-top: 20px;
+        padding-bottom: 1px;
+        text-align: center;
+        font-size: larger;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+    }
+
+    nav, .main-content, aside {
+        flex: 1;
+    }
+
+    section{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(192, 193, 248);
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+
+    footer {
+        display: flex;  
+        justify-content: center;
+    }
